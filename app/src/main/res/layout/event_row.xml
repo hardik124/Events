@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textSize="40sp"
+            android:lineSpacingExtra="8sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:text="Event title goes here"
+            android:padding="5dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:text="10/10/2016"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:text="10:10"
+        android:textSize="30sp"
+        android:layout_weight="0.21"
+        />
+</LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc"
+            android:text="The adapter is a component that stands between the data model we want to show in our app UI and the UI component that renders this information. In other words, an adapter guides the way the information are shown in the UI. So if we want to display our contacts, we need an adapter for the RecyclerView. This adapter must extend a class called RecyclerView.Adapter passing our class that implements the ViewHolder pattern:"
+            android:textSize="20sp"
+            android:paddingEnd="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
